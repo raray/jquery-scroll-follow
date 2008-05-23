@@ -1,0 +1,38 @@
+#summary JQuery Scroll Follow Parameters
+
+= Parameters List =
+
+===speed===
+_int - default: 500_
+
+The duration of the sliding animation (in milliseconds). The smaller the value, the faster the animation.
+
+===easing===
+_string - default: 'easeOutBack'_
+ 
+Any one of the easing options from the easing plugin. Use 'linear' for no easing. 
+
+===offset===
+_int - default: 0_
+
+Number of pixels the Scroll Follow object should remain from top of viewport. 
+
+===container===
+_string - default: object's immediate parent_
+
+ID of the containing div. 
+
+===killSwitch===
+_string - default: 'killSwitch'_
+
+ID of the On/Off toggle element. 
+
+===onText===
+_string - default: 'Turn Slide Off'_
+
+killSwitch text to be displayed if sliding is enabled. 
+
+===offText===
+_string - default: 'Turn Slide On'_
+
+killSwitch text to be displayed if sliding is disabled. 
