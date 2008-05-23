@@ -10,7 +10,7 @@ The duration of the sliding animation (in milliseconds). The smaller the value, 
 ===easing===
 _string - default: 'easeOutBack'_
  
-Any one of the easing options from the easing plugin. Use 'linear' for no easing. 
+Any one of the easing options from the [http://gsgd.co.uk/sandbox/jquery/easing/ easing plugin]. Use 'linear' for no easing. 
 
 ===offset===
 _int - default: 0_
