@@ -10,7 +10,7 @@
 	<target name="dist">
 		<delete>
 			<fileset dir="builds/">
-				<include name="vanishingpoint-b*.tar.gz" />
+				<include name="jquery-scroll-follow-b*.zip" />
 			</fileset>
 		</delete>
 		<zip destfile="./builds/jquery-scroll-follow-b${xinc.build.number}.zip">
