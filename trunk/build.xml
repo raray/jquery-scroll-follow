@@ -21,6 +21,7 @@
 				<exclude name="**/.svn/**" />
 				<exclude name=".project" />
 				<exclude name=".settings/**" />
+				<exclude name="*.log" />
 			</fileset>
 		</zip>
 	</target>
