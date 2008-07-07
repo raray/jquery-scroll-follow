@@ -36,3 +36,8 @@ killSwitch text to be displayed if sliding is enabled.
 _string - default: 'Turn Slide On'_
 
 killSwitch text to be displayed if sliding is disabled. 
+
+===animate===
+_string - default: 'yes'_
+
+Setting to 'no' enables a non-animated scroll following action. 
