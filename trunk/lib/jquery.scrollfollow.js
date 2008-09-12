@@ -7,7 +7,7 @@
  *
  * @projectDescription	jQuery plugin for allowing an element to animate down as the user scrolls the page.
  * 
- * @version 0.2.1
+ * @version 0.3.0 rc1
  * 
  * @requires jquery.js (tested with 1.2.5)
  * @requires ui.core.js (tested with 1.6)
@@ -82,12 +82,12 @@
 				// If the box should animate relative to the bottom of the window
 				else if ( options.relativeTo == 'bottom' )
 				{
-					console.log( 'Case 1: ' + ( pageScroll + viewportHeight - boxHeight - options.offset ) );
-					console.log( 'Case 2: ' + ( parentHeight - boxHeight ) );
+					/*console.log( 'Case 1: ' + ( pageScroll + viewportHeight - boxHeight - options.offset ) );
+					console.log( 'Case 2: ' + ( parentHeight - boxHeight ) );*/
 					
 					aniTop = Math.min( ( pageScroll + viewportHeight - boxHeight - options.offset ), ( parentHeight - boxHeight ) );
 		
-					console.log( aniTop );
+					//console.log( aniTop );
 				}
 				
 				// First options is for modern browsers
