@@ -7,7 +7,7 @@
  *
  * @projectDescription	jQuery plugin for allowing an element to animate down as the user scrolls the page.
  * 
- * @version 0.3.0 rc2
+ * @version 0.3.0 rc3
  * 
  * @requires jquery.js (tested with 1.2.5)
  * @requires ui.core.js (tested with 1.6)
@@ -56,7 +56,8 @@
 			var parentTop =  parseInt( cont.offset().top );
 			var parentHeight = parseInt( cont.attr( 'offsetHeight' ) );
 			var boxTop =  parseInt( box.offset().top );
-			var boxHeight = parseInt( box.attr( 'offsetHeight' ) + parseInt( box.css( 'marginTop' ) ) + parseInt( box.css( 'marginBottom' ) ) );
+			var boxHeight = parseInt( box.attr( 'offsetHeight' ) + ( parseInt( box.css( 'marginTop' ) ) || 0 ) + ( parseInt( box.css( 'marginBottom' ) ) || 0 ) );
+		
 			var aniTop;
 			
 			// Make sure the user wants the animation to happen
