@@ -1,3 +1,8 @@
+==0.3.0==
+ * Reworked animating logic to take more situations into account
+ * Added animating to initial position on page load
+ * Added animating to initial position on reenabling of following
+ * Added 'relativeTo' parameter: allows the scroll following object to reposition based on the top or the bottom of the viewport
 ==0.2.1==
  * Minor bug fix
 ==0.2.0==
