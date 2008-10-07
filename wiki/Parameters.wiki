@@ -41,3 +41,8 @@ killSwitch text to be displayed if sliding is disabled.
 _string - default: 'yes'_
 
 Setting to 'no' enables a non-animated scroll following action. 
+
+===relativeTo===
+_string - default: 'top'_
+
+Scroll animation can be relative to either the 'top' or 'bottom' of the viewport.
