@@ -1,3 +1,5 @@
+==0.3.1==
+ * Fixed behavior when 'relativeTo' is set to 'bottom.' Previous behavior allow the scrolling object to break out of the top of its container.
 ==0.3.0==
  * Reworked animating logic to take more situations into account
  * Added animating to initial position on page load
