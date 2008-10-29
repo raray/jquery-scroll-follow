@@ -25,7 +25,7 @@ ID of the containing div.
 ===killSwitch===
 _string - default: 'killSwitch'_
 
-ID of the On/Off toggle element. 
+ID of the On/Off toggle element. Requires the [http://www.stilbuero.de/2006/09/17/cookie-plugin-for-jquery/ jQuery Cookie plugin].   
 
 ===onText===
 _string - default: 'Turn Slide Off'_
