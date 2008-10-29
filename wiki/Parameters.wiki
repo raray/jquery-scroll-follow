@@ -10,7 +10,7 @@ The duration of the sliding animation (in milliseconds). The smaller the value, 
 ===easing===
 _string - default: 'easeOutBack'_
  
-Any one of the easing options from the [http://gsgd.co.uk/sandbox/jquery/easing/ easing plugin]. Use 'linear' for no easing. 
+If included, use any one of the easing options from the [http://gsgd.co.uk/sandbox/jquery/easing/ easing plugin]. Uses 'linear' by default which provides no easing.
 
 ===offset===
 _int - default: 0_
@@ -35,14 +35,14 @@ killSwitch text to be displayed if sliding is enabled.
 ===offText===
 _string - default: 'Turn Slide On'_
 
-killSwitch text to be displayed if sliding is disabled. 
-
-===animate===
-_string - default: 'yes'_
-
-Setting to 'no' enables a non-animated scroll following action. 
+killSwitch text to be displayed if sliding is disabled.  
 
 ===relativeTo===
 _string - default: 'top'_
 
 Scroll animation can be relative to either the 'top' or 'bottom' of the viewport.
+
+===delay===
+_int - default: 0
+
+Time between the end of the scroll and the beginning of the animation in milliseconds. 
