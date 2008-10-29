@@ -11,13 +11,13 @@
 <script type="text/javascript" src="ui.core.js"></script>
 <script type="text/javascript" src="jquery.easing.js"></script>
 }}}
-  # Call Scroll Follow on the desired DOM object: [http://www.net-perspective.com/sf-example-1.html See Example]
+  # Call Scroll Follow on the desired DOM object: [http://kitchen.net-perspective.com/sf-example-1.html See Example]
 {{{
 <script type="text/javascript">
 	$( '#example' ).scrollFollow();
 </script>
 }}}
-  # Or call Scroll Follow on the desired DOM object and give it some parameters: [http://www.net-perspective.com/sf-example-2.html See Example]
+  # Or call Scroll Follow on the desired DOM object and give it some parameters: [http://kitchen.net-perspective.com/sf-example-2.html See Example]
 {{{
 <script type="text/javascript">
 	$( document ).ready( function () {
@@ -31,8 +31,8 @@
 	} );
 </script>
 }}}
-  # The Scroll Follow object will remain inside its immediate container. [http://www.net-perspective.com/sf-example-3.html See Example]
-  # Or you can specify a parent (by ID) for the Scroll Follow object to consider its container: [http://www.net-perspective.com/sf-example-4.html See Example]
+  # The Scroll Follow object will remain inside its immediate container. [http://kitchen.net-perspective.com/sf-example-3.html See Example]
+  # Or you can specify a parent (by ID) for the Scroll Follow object to consider its container: [http://kitchen.net-perspective.com/sf-example-4.html See Example]
 {{{
 <script type="text/javascript">
 	$( document ).ready( function () {
