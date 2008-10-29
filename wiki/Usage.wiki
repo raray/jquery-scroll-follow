@@ -10,8 +10,6 @@
 {{{
 <script type="text/javascript" src="ui.core.js"></script>
 <script type="text/javascript" src="jquery.easing.js"></script>
-<script type="text/javascript" src="jquery.cookie.js"></script>
-<script type="text/javascript" src="jquery.scrollFollow.js"></script>
 }}}
   # Call Scroll Follow on the desired DOM object: [http://www.net-perspective.com/sf-example-1.html See Example]
 {{{
